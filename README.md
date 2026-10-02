@@ -1,4 +1,4 @@
-# Interpretable-Colon-Cancer-Detection-Using-Advanced-Deep-Learning-and-XAI-Techniques
+# Interpretable Colon Cancer Detection Using Advanced Deep Learning and XAI Techniques
 Colon Cancer detection using Advanced Deep Learning models. Models used are ResNet50 and DenseNet with Attention layer. Explainable AI (XAI) techniques used for interpretations.
 
 ## Overview
