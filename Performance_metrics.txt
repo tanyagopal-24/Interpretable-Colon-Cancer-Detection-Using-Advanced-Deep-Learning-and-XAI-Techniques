@@ -1,0 +1,54 @@
+Dataset: Histopathology Colon Cancer Images
+Task: Binary Classification (Cancer vs Non-Cancer)
+
+Evaluation Metrics Used:
+Accuracy – Overall correctness
+Precision – Correct cancer predictions
+Recall (Sensitivity) – Cancer detection ability
+F1 Score – Balance of precision and recall
+Specificity – Correct non-cancer detection
+AUC-ROC – Class separation ability
+
+Dual Attention ResNet - Best performing model. 
+Accuracy: 0.91
+Precision: 0.915
+Recall: 0.87
+F1 Score: 0.91
+Specificity: 0.95
+AUC-ROC: 0.91
+
+DenseNet with Spatial Attention (SA)
+Accuracy: 0.99
+Precision: 0.50
+Recall: 0.50
+
+DenseNet with Squeeze-Excitation (SE)
+Accuracy: 0.99
+Precision: 0.49
+Recall: 0.49
+F1 Score: 0.10
+Specificity: 0.49
+AUC-ROC: 0.10
+
+ResNet with Spatial Attention (SA)
+Accuracy: 0.85
+Precision: 0.88
+Recall: 0.88
+Specificity: 0.49
+AUC-ROC: 0.92
+
+ResNet with Squeeze-Excitation (SE)
+Accuracy: 0.83
+Precision: 0.88
+Recall: 0.88
+F1 Score: 0.88
+Specificity: 0.89
+
+MobileNet with Squeeze-Excitation (SE)
+Accuracy: 0.81
+Precision: 0.86
+Recall: 0.86
+F1 Score: 0.89
+Specificity: 0.87
+
+Best Overall Model: Dual Attention ResNet shows the most balanced performance across all critical medical AI metrics, making it the most reliable model for colon cancer detection. Also the XAI images highlighted the important regions. 
